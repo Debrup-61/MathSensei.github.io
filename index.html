@@ -163,19 +163,10 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Tool-augmented Large Language Models (TALM) are known to enhance the skillset of large language models (LLM), thereby, 
-            leading to their improved reasoning abilities across many tasks. While, TALMs have been successfully employed in different question-answering benchmarks, 
-            their efficacy on complex mathematical reasoning benchmarks, and the potential complimentary benefits offered by tools for knowledge retrieval and mathematical 
-            equation solving, are open research questions. In this work, we present MATHSENSEI, a tool-augmented large language model for mathematical reasoning. 
-            Augmented with tools for knowledge retrieval (Bing Web Search), program execution (Python), and symbolic equation solving (Wolfram-Alpha), 
-            we study the complimentary benefits of these tools through evaluations on mathematical reasoning datasets. We perform exhaustive ablations on MATH, 
-            a popular dataset for evaluating mathematical reasoning on diverse mathematical disciplines. 
-            We also conduct experiments involving well-known tool planners to study the impact of tool sequencing on the model performance. 
+            Tool-augmented Large Language Models (TALMs) are known to enhance the skillset of large language models (LLMs), thereby, leading to their improved reasoning abilities across many tasks. While, TALMs have been successfully employed in different question-answering benchmarks, their efficacy on complex mathematical reasoning benchmarks, and the potential complementary benefits offered by tools for knowledge retrieval and mathematical equation solving are open research questions. In this work, we present MathSensei, a tool-augmented large language model for mathematical reasoning. We study the complementary benefits of the tools - knowledge retriever (Bing Web Search), program generator + executor (Python), and symbolic equation solver (Wolfram-Alpha API) through evaluations on mathematical reasoning datasets. We perform exhaustive ablations on MATH, a popular dataset for evaluating mathematical reasoning on diverse mathematical disciplines. We also conduct experiments involving well-known tool planners to study the impact of tool sequencing on the model performance. 
           </p>
           <p>
-            MATHSENSEI achieves 13.5% better accuracy over gpt-3.5-turbo with Chain-of-Thought on the MATH dataset. 
-            We further observe that TALMs are not as effective for simpler math word problems (in GSM-8k), and the benefit increases as the complexity 
-            and required knowledge increases (progressively over AQuA, MMLU-Math, and higher level complex questions in MATH).
+            MathSensei achieves 13.5% better accuracy over gpt-3.5-turbo with Chain-of-Thought on the MATH dataset. We further observe that TALMs are not as effective for simpler math word problems (in GSM-8K), and the benefit increases as the complexity and required knowledge increases (progressively over AQuA, MMLU-Math, and higher level complex questions in MATH).
           </p>
         </div>
       </div>
